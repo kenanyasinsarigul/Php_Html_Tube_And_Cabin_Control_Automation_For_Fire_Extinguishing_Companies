@@ -1,0 +1,395 @@
+body{
+	margin: 0 auto;
+	background-image: url("../images/banner.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	display: block;
+}
+
+header{
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+	display: block;
+}
+
+header .tepe{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background-color: rgba(215,215,215,0.95);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+	/*background-color: rgba(0,0,0,0.90);*/
+	/*box-shadow: 0 8px 16px 0 rgba(0,0,0,0.5), 0 6px 20px 0 rgba(0,0,0,0.5);*/
+}
+
+header .logom{
+	width: auto;
+	height: auto;
+	float: left;
+	text-align: center;
+	display: block;
+	margin-left: 17.5%;
+	margin-top: 33px;
+	margin-right: 33px;
+}
+
+header .logores{
+	width: auto;
+	height: 35px;
+	margin: 0 auto;
+	display: block;
+}
+
+header .logores:hover{
+  -webkit-filter: blur(5px); /* Safari 6.0 - 9.0 */
+  filter: blur(2px);
+  transition: ease 0.3s;
+}
+
+.menuler {
+	float: left;
+	padding-top: 25px;
+	margin-right: 5px;
+}
+
+.menuler a{
+	background-color: darkblue;
+	padding: 15px;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 5px;
+}
+.menuler a.aktif{
+	background-color: darkgreen;
+	color: white;
+}
+.menuler a:hover{
+	background-color: green;
+	transition: ease 0.2s;
+	color: white;
+	text-decoration: none;
+}
+
+.menuler a.cikis:hover{
+	background-color: darkred;
+	transition: ease 0.2s;
+}
+
+.menuler a.mobbut{
+	display: none;
+}
+
+.menuler a.mobbutan{
+	display: none;
+}
+
+.mobilemenu{
+	display: none;
+	margin-top: 5px;
+}
+
+.mobilemenu ul{
+	padding: 0;
+	margin: 0 auto;
+	list-style: none;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.mobilemenu ul li{
+	color: white;
+	background-color: darkblue;
+	padding: 25px;
+	margin-bottom: 1px;
+}
+
+.mobilemenu ul li.aktif{
+	background-color: darkgreen;
+}
+
+.mobilemenu ul li a{
+	text-decoration: none;
+	color: white;
+}
+
+.mobilemenu ul li.aktif{
+	background-color: darkgreen;
+}
+
+.mobilemenu ul li:hover{
+	background-color: green;
+	transition: ease 0.2s;
+}
+
+.mobilemenu ul li.cikis:hover{
+	background-color: darkred;
+	transition: ease 0.2s;
+}
+
+.merkez{
+	padding: 0px 0px 50px 0px;
+	margin: 0 auto;
+	max-width: 1280px;
+	background-color: white;
+	margin-top: 20px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+}
+
+.merkez_ydk{
+	padding: 0px 0px 50px 0px;
+	margin: 0 auto;
+	max-width: 1280px;
+	max-height: fit-content block;
+	background-color: white;
+	margin-top: 20px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.9);
+}
+
+.contbas{
+	width: 100%;
+	height: 70px;
+	background-color: rgba(1,1,1,0.05);
+	margin-bottom: 25px;
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.3);
+}
+
+.contbas label.ana{
+	font-size: x-large;
+	text-align: left;
+	font-family: sans-serif;
+	line-height: 70px;
+	margin-left: 85px;
+}
+
+.contbas label.genel{
+	font-size: x-large;
+	text-align: left;
+	font-family: sans-serif;
+	line-height: 70px;
+	margin-left: 85px;
+}
+
+.contbas label.form{
+	font-size: x-large;
+	text-align: left;
+	font-family: sans-serif;
+	line-height: 70px;
+	margin-left: 125px;
+}
+
+.contmenu{
+	width: 100%;
+	height: auto;
+	float: left;
+	margin: 0px 0px 25px 0px;
+}
+
+.contmenu a.ekle{
+	background-color: darkgreen;
+	padding: 15px;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.contmenu a.isim{
+	background-color: darkorange;
+	padding: 15px;
+	color: white;
+	font-family: sans-serif;
+	text-decoration: none;
+	text-align: center;
+	border-radius: 5px;
+	margin-right: 10px;
+	margin-bottom: 3px;
+}
+
+.contmenu a.ekle:hover{
+	background-color: green;
+}
+
+#telif{
+ 	 position: fixed;
+  	bottom: 0;
+	background-color: rgba(215,215,215,0.95);
+	box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5);
+  	width: 100%;
+  	height: 25px;
+	color: black;
+	text-align: center;
+	line-height: 25px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.login-square{
+	max-width: 400px;
+	margin: 0 auto;
+	margin-top: 275px;
+	margin-bottom: 275px;
+	background-color: white;
+}
+
+.login-center{
+	padding: 80px 80px 0px 80px;
+}
+
+.login-center .btn{
+	width: 100%;
+	height: 45px;
+	margin-top: 15px;
+	border: none;
+}
+
+.login-center .btn:hover{
+	background-color: green;
+}
+
+.login-info{
+	max-width: 400px;
+	height: 80px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.login-square .logerr{
+	color: red;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.login-square .logacc{
+	color: green;
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.formekle{
+	margin: 0 auto;
+	padding: 10px 200px 10px 200px;
+	width: 80%;
+	background-color: rgba(1,1,1,0.05);
+}
+.formekle label{
+	font-weight: bold;
+}
+
+@media screen and (max-width: 940px) {
+	.merkez_ydk .contmenu{
+		width: 50%;
+	}
+	.merkez_ydk .contbas label{
+		font-size: small;
+	}
+
+}
+
+@media screen and (max-width: 917px) {
+	.menuler a{
+		display: none;
+	}
+	.menuler a.mobbut{
+		display: block;
+		width: auto;
+		height: 45px;
+		line-height: 25px;
+		padding: 10px;
+		float: left;
+	}
+	#telif label{
+		font-size: 7px;
+	}
+	.merkez{
+		max-width: 500px;
+	}
+
+	.merkez_ydk{
+		max-width: 500px;
+	}
+
+	.merkez_ydk .contmenu{
+		width: 70%;
+	}
+
+	.contbas label.ana{
+		font-size: small;
+		margin-left: 4%;
+	}
+
+	.contbas label.genel{
+		font-size: small;
+		margin-left: 4%;
+	}
+
+	.contbas label.form{
+		font-size: small;
+		margin-left: 5%;
+	}
+
+	.form-group label{
+		font-size: small;
+	}
+
+	.contmenu{
+		text-align: center;
+	}
+	.contmenu a{
+		font-size: smaller;
+		float: left;
+	}
+	.formekle{
+		width: 95%;
+		padding: 3%;
+	}
+	#formdata{
+		font-size: 10px;
+		line-height: 10px;
+	}
+	.login-square{
+		max-width: 290px;
+		margin: 0 auto;
+		margin-top: 135px;
+		margin-bottom: 135px;
+	}
+	.login-center{
+		padding: 40px 40px 0px 40px;
+	}
+	.login-info{
+		max-width: 290px;
+		height: 50px;
+		line-height: 25px;
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 913px) {
+	header .mobilemenu.responsive {position: relative;}
+	header .mobilemenu.responsive .bast {
+	position: absolute;
+	right: 0;
+	top: 0;
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	header .logom{
+			margin-left: 5%;
+			margin-right: 1%;
+	}
+	header .logores{
+		height: 30px;
+		margin-top: 1px;
+		width: 175px;
+	}
+}

@@ -1,0 +1,39 @@
+﻿﻿# humanstxt.org/
+# The humans responsible & technology colophon
+
+/* TEAM */
+	Designer: Kenan Yasin SARIGÜL
+	Author: Kenan Yasin SARIGÜL
+	Mentor: Emirhan Yüce
+	Contact: kenansarigul97 [at] gmail.com
+	Facebook: /kenanyasinsarigul
+	From: Pendik / Istanbul / Turkey
+
+/* SITE */
+	URL: ""
+	Language: Turkish
+	Doctype: HTML5
+	
+/* VERSION */
+
+/* STANDARDS */
+	HTML5: http://w3.org/TR/html5/
+	CSS3: http://w3.org/TR/CSS/#css3
+	HUMANS: http://humanstxt.org/
+
+/* LANGUAGES */
+	HTML
+	CSS
+	JavaScript
+	XML
+
+/* COMPONENTS */
+    	Initializr: http://initializr.com/
+	Bootstrap: http://getbootstrap.com/
+	HTML5BoilerPlate: http://html5boilerplate.com/
+	Modernizr: http://modernizr.com/
+	jQuery: http://jquery.com/
+
+/* SERVICES */
+	Google Web Fonts: http://google.com/fonts/
+	Google Analytics: http://google.com/analytics/
