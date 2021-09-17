@@ -19,6 +19,8 @@
   </p>
 </p>
 
+![kontrolmain](https://user-images.githubusercontent.com/51781007/133745713-d412bc28-19ac-4c3d-ac61-8ce9d2698d86.png)
+
 ## Author
 Kenan Yasin SARIGÜL- <a href="https://github.com/kenanyasinsarigul/">Github</a>
 
